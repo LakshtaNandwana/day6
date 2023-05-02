@@ -1,0 +1,147 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont:'Sacramento', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 120px;
+    
+}
+.heading {
+    font-family: var(--myTitleFont);
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+h2 {
+    font-family: var(--fontDefaultHeading);
+    margin: 0;
+    font-size: 2rem;  /* 1em = 16px */
+    padding-bottom: 20px;
+    text-align: center;
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -100px;
+    margin-left: 10px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+    width: 100px;
+}
+.mountain{
+    width: 300px;
+}
+img{
+    margin-bottom:-5px;
+}
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+.middle-section{
+    margin: 50px auto 50px auto;
+    text-align: center;
+    width: 75%;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: dotted var(--backgroundColor) 5px;
+    border-bottom: none;
+    width: 5%;
+}
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+.skill-image{
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+.my-skills{
+    margin-bottom: 60px;
+}
+.left{
+    float:left;
+    margin-right: 40px;
+}
+.right{
+    float: right;
+    margin-left: 40px;
+}
+.skill-row{
+    text-align: left;
+    margin-bottom: 80px;
+}
+.int-image{
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+.developer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: azure;
+
+}
+.contact{
+    background-color: green;
+    font-size: 1.75rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.contact:hover{
+    background-color: rgb(32, 150, 111);
+    
+}
+.bottom-section{
+    padding: 100px auto;
+    text-align: center;
+    margin: 0px auto;
+    background-color: green;
+}
+.social-link{
+    margin: 0px 48px;
+}
+.social-link:hover{
+color: burlywood;
+
+}
